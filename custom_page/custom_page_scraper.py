@@ -9,8 +9,8 @@ from random import randint
 
 
 
-
-browser = webdriver.Chrome('/Users/Mike/Downloads/chromedriver')
+file_path = "local path to your driver"
+browser = webdriver.Chrome(file_path)
 
 browser.implicitly_wait(10)
 wait = WebDriverWait(browser, 30)
