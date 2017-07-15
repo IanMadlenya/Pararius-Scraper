@@ -1,11 +1,11 @@
-Basic tool for (gently) scraping rental home / appartment listings from Pararius.nl, written in Python using Selenium.
+## Basic tool for (gently) scraping rental home / appartment listings from Dutch housing site [Pararius.nl](www.pararius.nl), written in Python using Selenium.
 
 Please note:
 
 - scraping this website is only allowed for personal use (as per Pararius' Terms and Conditions).
 - pararius.nl uses the anti-scraping services of Distil Networks so when running this scraper you will have to manually pass a Captcha every now and then
 - this tool is structured in a such a way that it gently / ethically scrapes the pages it encounters (in other words, scraping data will take a while given the numerous "sleep" intervals embedded in the code)
-- tou will have to point the init_browser function to the local path of your webdriver (through the file_path variable).
+- you will have to point the init_browser function to the local path of your webdriver (through the file_path variable).
 
 The code takes as input search terms that would normally be entered on the Pararius home page. It extracts 11 variables from each home listing, which in turn is appended to a dataframed and saved to a CSV file.
 It further takes the number of pages you would like to extract as an input (nb - each pararius results page contains 20 listings).
