@@ -1,4 +1,4 @@
-## Basic tool for (gently) scraping rental home / appartment listings from Dutch housing site [Pararius.nl](www.pararius.nl), written in Python using Selenium.
+## Basic tool for (gently) scraping rental home / appartment listings from Dutch housing site [Pararius.nl](http://www.pararius.nl), written in Python using Selenium.
 
 Please note:
 
