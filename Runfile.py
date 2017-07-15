@@ -2,7 +2,8 @@ from Functions_HomePageStart import init_browser, navigate_to_website, enter_sea
 
 # Initialize browser & navigate to website
 
-browser = init_browser('/Users/Mike/Downloads/chromedriver')
+file_path = "local path to your driver"
+browser = init_browser(file_path)
 navigate_to_website(browser)
 
 # Define search-term
