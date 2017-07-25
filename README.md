@@ -41,3 +41,5 @@ Example of the resulting dataframe:
 4     120  Appartement  1016 EJ
 5     100  Appartement  1078 NZ
 ```
+#### Output mapped in Tableau for the city of Amsterdam (monthly rent / square meters of surface)
+![alt text](https://raw.githubusercontent.com/Weesper1985/Pararius-Scraper/master/Sheet%201%20(1).png)
